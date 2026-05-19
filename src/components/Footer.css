@@ -1,0 +1,56 @@
+.footer {
+  background: var(--deep-green);
+  color: #fff;
+  padding-top: 60px;
+  margin-top: 80px;
+}
+.footer__inner {
+  display: grid;
+  grid-template-columns: 2fr 1fr 1fr 1fr;
+  gap: 40px;
+  padding-bottom: 48px;
+}
+.footer__logo {
+  font-family: 'Playfair Display', serif;
+  font-size: 24px;
+  font-weight: 800;
+  margin-bottom: 12px;
+}
+.footer__logo em { font-style: normal; color: var(--saffron); }
+.footer__brand p { font-size: 14px; color: rgba(255,255,255,0.6); line-height: 1.6; margin-bottom: 16px; }
+.footer__langs { display: flex; gap: 12px; font-size: 13px; font-weight: 600; }
+.footer__langs span {
+  background: rgba(255,255,255,0.1);
+  padding: 4px 12px;
+  border-radius: 20px;
+}
+.footer__col h4 {
+  font-family: 'DM Sans', sans-serif;
+  font-size: 13px;
+  font-weight: 700;
+  letter-spacing: 1.5px;
+  text-transform: uppercase;
+  color: rgba(255,255,255,0.4);
+  margin-bottom: 16px;
+}
+.footer__col button {
+  display: block;
+  background: none;
+  border: none;
+  color: rgba(255,255,255,0.7);
+  font-size: 14px;
+  font-weight: 400;
+  padding: 5px 0;
+  cursor: pointer;
+  transition: color 0.15s;
+  text-align: left;
+}
+.footer__col button:hover { color: #fff; }
+.footer__bottom {
+  border-top: 1px solid rgba(255,255,255,0.1);
+  padding: 20px 0;
+}
+.footer__bottom p { font-size: 13px; color: rgba(255,255,255,0.4); }
+@media (max-width: 768px) {
+  .footer__inner { grid-template-columns: 1fr 1fr; }
+}
