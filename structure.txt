@@ -1,0 +1,304 @@
+.
+├── App.jsx
+├── index.css
+├── index.html
+├── main.jsx
+├── node_modules
+│   ├── @babel
+│   │   ├── code-frame
+│   │   ├── compat-data
+│   │   ├── core
+│   │   ├── generator
+│   │   ├── helper-compilation-targets
+│   │   ├── helper-globals
+│   │   ├── helper-module-imports
+│   │   ├── helper-module-transforms
+│   │   ├── helper-plugin-utils
+│   │   ├── helper-string-parser
+│   │   ├── helper-validator-identifier
+│   │   ├── helper-validator-option
+│   │   ├── helpers
+│   │   ├── parser
+│   │   ├── plugin-transform-react-jsx-self
+│   │   ├── plugin-transform-react-jsx-source
+│   │   ├── template
+│   │   ├── traverse
+│   │   └── types
+│   ├── @esbuild
+│   │   └── darwin-arm64
+│   ├── @jridgewell
+│   │   ├── gen-mapping
+│   │   ├── remapping
+│   │   ├── resolve-uri
+│   │   ├── sourcemap-codec
+│   │   └── trace-mapping
+│   ├── @rolldown
+│   │   └── pluginutils
+│   ├── @rollup
+│   │   └── rollup-darwin-arm64
+│   ├── @types
+│   │   ├── babel__core
+│   │   ├── babel__generator
+│   │   ├── babel__template
+│   │   ├── babel__traverse
+│   │   └── estree
+│   ├── @vitejs
+│   │   └── plugin-react
+│   ├── baseline-browser-mapping
+│   │   ├── dist
+│   │   ├── LICENSE.txt
+│   │   ├── package.json
+│   │   └── README.md
+│   ├── browserslist
+│   │   ├── browser.js
+│   │   ├── cli.js
+│   │   ├── error.d.ts
+│   │   ├── error.js
+│   │   ├── index.d.ts
+│   │   ├── index.js
+│   │   ├── LICENSE
+│   │   ├── node.js
+│   │   ├── package.json
+│   │   ├── parse.js
+│   │   └── README.md
+│   ├── caniuse-lite
+│   │   ├── data
+│   │   ├── dist
+│   │   ├── LICENSE
+│   │   ├── package.json
+│   │   └── README.md
+│   ├── convert-source-map
+│   │   ├── index.js
+│   │   ├── LICENSE
+│   │   ├── package.json
+│   │   └── README.md
+│   ├── debug
+│   │   ├── LICENSE
+│   │   ├── package.json
+│   │   ├── README.md
+│   │   └── src
+│   ├── electron-to-chromium
+│   │   ├── chromium-versions.js
+│   │   ├── chromium-versions.json
+│   │   ├── full-chromium-versions.js
+│   │   ├── full-chromium-versions.json
+│   │   ├── full-versions.js
+│   │   ├── full-versions.json
+│   │   ├── index.js
+│   │   ├── LICENSE
+│   │   ├── package.json
+│   │   ├── README.md
+│   │   ├── versions.js
+│   │   └── versions.json
+│   ├── esbuild
+│   │   ├── bin
+│   │   ├── install.js
+│   │   ├── lib
+│   │   ├── LICENSE.md
+│   │   ├── package.json
+│   │   └── README.md
+│   ├── escalade
+│   │   ├── dist
+│   │   ├── index.d.mts
+│   │   ├── index.d.ts
+│   │   ├── license
+│   │   ├── package.json
+│   │   ├── readme.md
+│   │   └── sync
+│   ├── fsevents
+│   │   ├── fsevents.d.ts
+│   │   ├── fsevents.js
+│   │   ├── fsevents.node
+│   │   ├── LICENSE
+│   │   ├── package.json
+│   │   └── README.md
+│   ├── gensync
+│   │   ├── index.js
+│   │   ├── index.js.flow
+│   │   ├── LICENSE
+│   │   ├── package.json
+│   │   ├── README.md
+│   │   └── test
+│   ├── js-tokens
+│   │   ├── CHANGELOG.md
+│   │   ├── index.js
+│   │   ├── LICENSE
+│   │   ├── package.json
+│   │   └── README.md
+│   ├── jsesc
+│   │   ├── bin
+│   │   ├── jsesc.js
+│   │   ├── LICENSE-MIT.txt
+│   │   ├── man
+│   │   ├── package.json
+│   │   └── README.md
+│   ├── json5
+│   │   ├── dist
+│   │   ├── lib
+│   │   ├── LICENSE.md
+│   │   ├── package.json
+│   │   └── README.md
+│   ├── loose-envify
+│   │   ├── cli.js
+│   │   ├── custom.js
+│   │   ├── index.js
+│   │   ├── LICENSE
+│   │   ├── loose-envify.js
+│   │   ├── package.json
+│   │   ├── README.md
+│   │   └── replace.js
+│   ├── lru-cache
+│   │   ├── index.js
+│   │   ├── LICENSE
+│   │   ├── package.json
+│   │   └── README.md
+│   ├── ms
+│   │   ├── index.js
+│   │   ├── license.md
+│   │   ├── package.json
+│   │   └── readme.md
+│   ├── nanoid
+│   │   ├── async
+│   │   ├── bin
+│   │   ├── index.browser.cjs
+│   │   ├── index.browser.js
+│   │   ├── index.cjs
+│   │   ├── index.d.cts
+│   │   ├── index.d.ts
+│   │   ├── index.js
+│   │   ├── LICENSE
+│   │   ├── nanoid.js
+│   │   ├── non-secure
+│   │   ├── package.json
+│   │   ├── README.md
+│   │   └── url-alphabet
+│   ├── node-releases
+│   │   ├── data
+│   │   ├── LICENSE
+│   │   ├── package.json
+│   │   └── README.md
+│   ├── picocolors
+│   │   ├── LICENSE
+│   │   ├── package.json
+│   │   ├── picocolors.browser.js
+│   │   ├── picocolors.d.ts
+│   │   ├── picocolors.js
+│   │   ├── README.md
+│   │   └── types.d.ts
+│   ├── postcss
+│   │   ├── lib
+│   │   ├── LICENSE
+│   │   ├── package.json
+│   │   └── README.md
+│   ├── react
+│   │   ├── cjs
+│   │   ├── index.js
+│   │   ├── jsx-dev-runtime.js
+│   │   ├── jsx-runtime.js
+│   │   ├── LICENSE
+│   │   ├── package.json
+│   │   ├── react.shared-subset.js
+│   │   ├── README.md
+│   │   └── umd
+│   ├── react-dom
+│   │   ├── cjs
+│   │   ├── client.js
+│   │   ├── index.js
+│   │   ├── LICENSE
+│   │   ├── package.json
+│   │   ├── profiling.js
+│   │   ├── README.md
+│   │   ├── server.browser.js
+│   │   ├── server.js
+│   │   ├── server.node.js
+│   │   ├── test-utils.js
+│   │   └── umd
+│   ├── react-refresh
+│   │   ├── babel.js
+│   │   ├── cjs
+│   │   ├── LICENSE
+│   │   ├── package.json
+│   │   ├── README.md
+│   │   └── runtime.js
+│   ├── rollup
+│   │   ├── dist
+│   │   ├── LICENSE.md
+│   │   ├── package.json
+│   │   └── README.md
+│   ├── scheduler
+│   │   ├── cjs
+│   │   ├── index.js
+│   │   ├── LICENSE
+│   │   ├── package.json
+│   │   ├── README.md
+│   │   ├── umd
+│   │   ├── unstable_mock.js
+│   │   └── unstable_post_task.js
+│   ├── semver
+│   │   ├── bin
+│   │   ├── LICENSE
+│   │   ├── package.json
+│   │   ├── range.bnf
+│   │   ├── README.md
+│   │   └── semver.js
+│   ├── source-map-js
+│   │   ├── lib
+│   │   ├── LICENSE
+│   │   ├── package.json
+│   │   ├── README.md
+│   │   ├── source-map.d.ts
+│   │   └── source-map.js
+│   ├── update-browserslist-db
+│   │   ├── check-npm-version.js
+│   │   ├── cli.js
+│   │   ├── index.d.ts
+│   │   ├── index.js
+│   │   ├── LICENSE
+│   │   ├── package.json
+│   │   ├── README.md
+│   │   └── utils.js
+│   ├── vite
+│   │   ├── bin
+│   │   ├── client.d.ts
+│   │   ├── dist
+│   │   ├── index.cjs
+│   │   ├── index.d.cts
+│   │   ├── LICENSE.md
+│   │   ├── package.json
+│   │   ├── README.md
+│   │   └── types
+│   └── yallist
+│       ├── iterator.js
+│       ├── LICENSE
+│       ├── package.json
+│       ├── README.md
+│       └── yallist.js
+├── package-lock.json
+├── package.json
+├── README.md
+├── src
+│   ├── App.jsx
+│   ├── components
+│   │   ├── CourseCard.jsx
+│   │   ├── Footer.css
+│   │   ├── Footer.jsx
+│   │   ├── Navbar.css
+│   │   └── Navbar.jsx
+│   ├── data
+│   │   └── courses.js
+│   ├── index.css
+│   ├── main.jsx
+│   └── pages
+│       ├── AuthPage.css
+│       ├── CourseDetailPage.css
+│       ├── CourseDetailPage.jsx
+│       ├── CoursesPage.css
+│       ├── CoursesPage.jsx
+│       ├── HomePage.css
+│       ├── HomePage.jsx
+│       ├── SignInPage.jsx
+│       └── SignUpPage.jsx
+├── structure.txt
+└── vite.config.js
+
+108 directories, 194 files
