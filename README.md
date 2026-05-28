@@ -13,11 +13,17 @@ Sri Lanka's Real-World Learning Management System built with React + Vite.
 - Fully responsive design
 
 ## Pages
+
 | Route (simulated) | Description |
 |---|---|
-| Home (`/`) | Hero, categories, featured courses, testimonials |
-| Courses (`/courses`) | All courses with sidebar filters |
-| Course Detail (`/courses/:id`) | Full course info, curriculum, enrol |
+| Home (`/`) | Hero, categories, featured courses, statistics, testimonials |
+| Courses (`/courses`) | All courses with search, filters, sort, and view toggle |
+| Course Detail (`/courses/:id`) | Full course info, curriculum accordion, instructor, reviews, enroll |
+| Instructors (`/instructors`) | Browse all instructors listing |
+| Instructor Detail (`/instructors/:id`) | Full instructor profile and their courses |
+| Profile (`/profile`) | Enrolled courses and personal profile management |
+| Sign Up (`/signup`) | New user registration with role selection |
+| Sign In (`/signin`) | Existing user login |
 
 ## Getting Started
 
