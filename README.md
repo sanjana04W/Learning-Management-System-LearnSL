@@ -3,7 +3,7 @@ Sri Lanka's Real-World Learning Management System built with React + Vite.
 
 ## Features
 
-- 3-page SPA: Home, All Courses (with categories), Course Detail
+- 8-page SPA: Home, All Courses (with categories), Course Detail, Instructors, Instructors Details, Profile, Sign Up, Sign In
 - 8 courses across 7 Sri Lankan education categories
 - Filter by category, language (Sinhala/Tamil/English), level
 - Search & sort functionality
